@@ -20,11 +20,10 @@ body{
 
 /* Header section */
 .header-section{
-    padding: 3rem 0;
+    padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 82, 82);
 }
 
 .header-menu__button{
@@ -75,7 +74,7 @@ body{
 
 /* Main section*/
 .main-section{
-    margin-top: 10rem;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
 }
@@ -118,15 +117,52 @@ body{
 }
 
 
+/* How it works section */
+.howworks-section{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.add-style{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.section-image__info{
+    display: flex;
+    background-color: #ccf0e6;
+
+}
+
+.section-image__info img{
+    width: 70%;
+}
+
+.section-image__info1 p{
+    padding: 3rem 4rem 1rem;
+    color: #494949;
+}
+
+.section-image__info1 a{
+    text-decoration: none;
+    margin-left: 4rem;
+    color: #313131;
+    font-weight: 600;
+}
+
+
 
 /* Margin in px */
 .m-10{
     margin: 0.62rem;
 }
 
-.ml-10
+.ml-10{
+    font-weight: 500;
+}
 
 /* Text or font */
-.text-center{
-    text-align: center;
-}
