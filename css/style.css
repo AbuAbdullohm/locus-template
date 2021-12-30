@@ -17,7 +17,6 @@ body{
     margin: 0 auto;
 }
 
-
 /* Header section */
 .header-section{
     padding: 1rem 0;
@@ -69,6 +68,13 @@ body{
 .header-button a{
     text-decoration: none;
     color: white;
+}
+
+/* RWD */
+@media only screen and(max-width: 1024px){
+    .header-menu{
+        width: 80%;
+    }
 }
 
 
@@ -155,14 +161,28 @@ body{
 }
 
 
-
-/* Margin in px */
-.m-10{
-    margin: 0.62rem;
+/* Our missin section */
+.our-mission{
+    margin-top: 5rem;
+    display: flex;
 }
 
-.ml-10{
-    font-weight: 500;
+
+.our-mission__image{
+    width: 80%;
 }
 
-/* Text or font */
+.our-mission__image img{
+    width: 100%;
+}
+
+.our-mission__info{
+    margin-left: 5rem;
+}
+
+.our-mission__info p{
+    margin-top: 3rem;
+    width: 80%;
+}
+
+
