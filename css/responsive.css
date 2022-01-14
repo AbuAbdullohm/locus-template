@@ -117,5 +117,119 @@
   .container {
     width: 50rem;
     margin: 0 auto;
+    margin-left: 150px;
   }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .container{
+    width: 30rem;
+  }
+
+  .section-title{
+    font-size: 1.5rem;
+  }
+
+  .section-text {
+    font-size: 0.6rem;
+  }
+
+  .main-section {
+    margin-top: 0.5vh
+  }
+
+  .section-info{
+    width: 100%;
+    justify-content: center;
+    height: 20rem;
+  }
+
+  .section-image {
+    display: none;
+  }
+
+  .howworks-section {
+    margin-top: 3rem;
+  }
+
+  .section-image__image {
+    display: none;
+  }
+
+  .section-image__info1 {
+    width: 100%;
+  }
+
+  .our-mission {
+    margin-top: 2rem;
+  }
+
+  .our-mission__image {
+    display: none;
+  }
+
+  .our-mission__info h3 {
+    font-size: 1.5rem;
+  }
+
+  .our-mission__info p {
+    margin-top: 1rem;
+  }
+
+  .our-project {
+    margin-top: 2rem;
+  }
+
+  .section-line {
+    width: 30rem;
+    margin: 1.5rem auto
+  }
+
+  .project-items {
+    width: 30rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-item {
+    width: 25rem;
+  }
+
+  .project-text {
+    width: 25rem;
+  }
+
+  .project-image1, .project-image2{
+    display: none;
+  }
+
+  .testimonial {
+    margin-top: 2rem;
+  }
+
+  .testimonial-logo {
+    width: 30rem;
+  }
+
+  .testimonial-card__image{
+    display: none;
+  }
+
+  .testimonial-card {
+    width: 30rem;
+    height: 25rem;
+    margin-top: 2rem;
+  }
+
+  .contact {
+    width: 30rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact-text {
+    width: 9rem;
 }

@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 5vh;
 }
 
 .header-logo img {
@@ -114,7 +114,7 @@ body {
 
 /* Main section*/
 .main-section {
-  margin-top: 3rem;
+  margin-top: 1vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
