@@ -1,14 +1,16 @@
 /*Media query*/
 
-
 @media only screen and (max-width: 1024px) {
   .container {
     width: 50rem;
     margin: 0 auto;
+    overflow-x: hidden;
   }
 
   .header-section {
     position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
   }
 
   .header-menu {
@@ -18,7 +20,7 @@
     top: 0;
     right: 0;
     left: 0;
-    width: 50%;
+    width: 100%;
     background: #fff;
     transition: 0.5s all;
   }
@@ -44,7 +46,15 @@
   .mobile-menu .exit-btn {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 1.5rem;
+  }
+
+  .header-button {
+    height: 2.7rem;
+    font-size: 18px;
+    line-height: 2.7rem;
+    cursor: pointer;
+    margin-right: 20px;
   }
 
   .section-title {
@@ -54,6 +64,13 @@
 
   .section-text {
     font-size: 1rem;
+  }
+
+  .section-button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
   }
 
   .our-mission__info {
@@ -111,25 +128,56 @@
   }
 }
 
-
-
 @media only screen and (max-width: 768px) {
   .container {
-    width: 50rem;
+    width: 45rem;
     margin: 0 auto;
-    margin-left: 150px;
+    overflow-x: hidden;
+  }
+
+  .contact {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .contact-text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .contact .content-border{
+    width: 100%;
+    border: 1px solid #486958;
+    padding: 2rem;
   }
 }
 
-
-
-@media only screen and (max-width: 500px) {
-
-  .container{
-    width: 30rem;
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 20rem;
+    left: 0;
+    overflow-x: hidden;
   }
 
-  .section-title{
+  .menu-btn img {
+    width: 80%;
+  }
+
+  .header-button {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+  }
+
+  .section-title {
     font-size: 1.5rem;
   }
 
@@ -138,10 +186,10 @@
   }
 
   .main-section {
-    margin-top: 0.5vh
+    margin-top: 0.5vh;
   }
 
-  .section-info{
+  .section-info {
     width: 100%;
     justify-content: center;
     height: 20rem;
@@ -184,8 +232,7 @@
   }
 
   .section-line {
-    width: 30rem;
-    margin: 1.5rem auto
+    display: none;
   }
 
   .project-items {
@@ -202,7 +249,8 @@
     width: 25rem;
   }
 
-  .project-image1, .project-image2{
+  .project-image1,
+  .project-image2 {
     display: none;
   }
 
@@ -211,26 +259,82 @@
   }
 
   .testimonial-logo {
-    width: 30rem;
+    width: 20rem;
   }
 
-  .testimonial-card__image{
+  .testimonial-card__image {
     display: none;
   }
 
   .testimonial-card {
-    width: 30rem;
-    height: 25rem;
+    width: 25rem;
+    height: 20rem;
     margin-top: 2rem;
+  }
+
+  .testimonial-card__text {
+    padding: 0;
+  }
+
+  .testimonial-card__text p {
+    width: 20rem;
+    margin-top: 1rem;
+  }
+
+  .testimonial-card__info {
+    width: 25rem;
+    height: 20rem;
+  }
+
+  .testimonial-card__number {
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .project-done {
+    width: 5rem;
+    margin-left: 1rem;
+  }
+
+  .test-title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #58a9a5;
+  }
+
+  .test-text {
+    color: #58a9a5;
+    font-size: 1rem;
+    font-weight: 600;
   }
 
   .contact {
-    width: 30rem;
+    width: 20rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-text {
-    width: 9rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .content-border {
+    width: 18rem;
+  }
+
+  .section-line__1 {
+    display: none;
+  }
+
+  .contact-button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
   }
 }
